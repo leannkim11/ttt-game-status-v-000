@@ -51,9 +51,7 @@ end
 
 def winner(board)
   # won?(board) ? (something) : (something)
-  #["X", " ", "O"
-  # "X", "O", " ",
-  # "O", " ", " "]
+["X", " ", "O", "X", "O", " ", "O", " ", " "]
   #
   # [2,4,6] = win_group
   # # ["O", "O", "O"]
@@ -64,8 +62,8 @@ def winner(board)
   # else
   #   nil
   # end
-  won?(board)? board[(won?(board))[0]] : nil
-  board[(won?(board))] = board[2,4,6][0]
+  won?(board)? board[ (won?(board) )[0]] : nil
+  wont?(board)? => [array of winning combination] or false
   # if_this_is_a_true_value ? then_the_result_is_this : else_it_is_this
 end
 #
