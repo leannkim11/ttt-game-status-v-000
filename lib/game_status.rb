@@ -65,7 +65,7 @@ def winner(board)
   #   nil
   # end
   won?(board)? board[(won?(board))[0]] : nil
-  board[(won?(board))]
+  board[(won?(board))] = board[2,4,6]
   # if_this_is_a_true_value ? then_the_result_is_this : else_it_is_this
 end
 #
