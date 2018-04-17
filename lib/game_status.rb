@@ -57,14 +57,15 @@ def winner(board)
   #
   # [2,4,6] = win_group
   # # ["O", "O", "O"]
-  # # board[0]
-  if winning = won?(board)#[2,4,6]
-    # winning = [2,4,6]
-    return board[winning.first] #[O,O,O]
-  else
-    nil
-  end
-  # won?(board)? board(won?(board[0])) : nil
+  # # # board[0]
+  # if winning = won?(board)#[2,4,6]
+  #   # winning = [2,4,6]
+  #   return board[winning.first] #[O,O,O]
+  # else
+  #   nil
+  # end
+  won?(board)? board[won?(board)][0] : nil
+  won?(board)? board(won?(board[0])) : nil
   # # if_this_is_a_true_value ? then_the_result_is_this : else_it_is_this
 end
 #
