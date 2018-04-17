@@ -65,6 +65,8 @@ def winner(board)
   won?(board)? board[ (won?(board) )[0]] : nil
   won?(board)? => [array of winning combination] or false
 
+  board[ won?(board)]
+
   # if_this_is_a_true_value ? then_the_result_is_this : else_it_is_this
 end
 #
